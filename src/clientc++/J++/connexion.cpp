@@ -45,10 +45,7 @@ SOCKET Connexion(string addr,unsigned short* port)
         }
         catch(const Erreur e)
         {
-            
-            
             if(strcmp(e.message,"Echec de la connexion au serveur de majuscule") == 1){
-                //system("start .\\J++\\start.bat");
                 system("start java -jar .\\J++\\j++.jar");
                 Sleep(1500);
             }
