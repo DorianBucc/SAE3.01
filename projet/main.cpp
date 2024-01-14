@@ -9,6 +9,7 @@ int main() {
     //int ch;
     //ch = cin.get();
     frame2.DessineTrait(0, 0, 1, 0.5);
+    frame2.DessineTrait(0, 0, 5, 5);
     frame2.DessineTrait(4, 4, 2, 2, 15,108,0,200,255);
     frame2.DessineRectangle(2.5, 2.5, 1, 1);
     frame2.DessineRectangle(2.5, 2.5, 2, 2,255,0,0,255);

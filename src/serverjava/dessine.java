@@ -20,7 +20,7 @@ public class dessine extends Thread
         this.requete = requete;
         
         DessineFormeCOR forme = new DessineFormeCORDroite(null, graphics);
-        forme = new DessineFormeCORDroiteCouleur(null, graphics);
+        forme = new DessineFormeCORDroiteCouleur(forme, graphics);
         forme = new DessineFormeCORDroiteEpaisseur(forme, graphics);
         forme = new DessineFormeCORDroiteEpaisseurCouleur(forme, graphics);
         forme = new DessineFormeCOROval(forme, graphics);
